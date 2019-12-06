@@ -1,0 +1,259 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Ann Wang"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Ann Wang"
+        tagline = "Physician Assistant-Student"
+        avatar = "pic.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Austin, Texas"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:5122288677"
+        text = "(512)228-8677"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:ann.wang@utexas.edu"
+        text = "ann.wang@utexas.edu"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Certifications"
+        [[params.skills.list.items]]
+        details = "Emergency Medical Technician-Basic"
+        [[params.skills.list.items]]
+        details = "Basic Life Support Instructor"
+        [[params.skills.list.items]]
+        details = "Healthcare Provider"
+
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelor of Arts and Science in Nutrition"
+        university = "University Texas at Austin"
+        dates = "2016-2020"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Chinese-Mandarin"
+        level = "Fluent"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Hiking"
+        [[params.interests.list]]
+        name = "Exercising"
+        [[params.interests.list]]
+        name = "Cooking"
+        [[params.interests.list]]
+        name = "Crafting"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I am currently a college senior at the University of Texas at Austin intending on starting the Physician Assistant Master's Program at the University of Texas Medical Branch located in Galveston. Physician Assistants (PAs) are licensed to practice medicine and provide a wide range of healthcare diagnostic and treatment services with physician supervision. PAs conduct physical examinations, diagnose and treat illnesses, order and interpret tests, counsel on preventive health care, assist in surgery, and write prescriptions. PAs specialize in areas like emergency medicine, internal medicine, surgery, pediatrics, etc. after completing a core group of educational requirements. "
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Medical Assistant"
+        dates = "June 2019 - Present"
+        company = "Allergy & Immunology Medical Center"
+        details = "The Allergy and Immunology Medical Center is a specialty clinic located in West Austin treating patients with allergy, asthma, skin problems, and immunodeficient symptoms. "
+        [[params.experience.list.items]]
+        details = "Records vital signs into the patient's chart and conducts spirometry tests to ensure proper lung function."
+        [[params.experience.list.items]]
+        details = "Administers prescribed medications and treatments, specifically allergy/immunotherapy injections."
+        [[params.experience.list.items]]
+        details = "Reacts appropriately in patient reaction situations and informs the physician as necessary to mitigate possible adverse reactions."
+
+        [[params.experience.list]]
+        title = "Nurse Aide"
+        dates = "Feb 2018 - Mar 2019"
+        company = "Autumn Leaves"
+        details = "Autumn Leaves is a memory care community specifically designed to deliver the highest quality of caregiving for individuals living with dementia."
+        [[params.experience.list.items]]
+        details = "Assisted residents in activities of daily living and monitored residents for changes in condition."
+        [[params.experience.list.items]]
+        details = "Provided for the residents’ physical care including lifting, bathing, performing hygiene tasks, toileting, and assisting with meals."
+
+        [[params.experience.list]]
+        title = "Emergency Medical Technician"
+        dates = "Jan 2017 - Present"
+        company = "EMS Events"
+        [[params.experience.list.items]]
+        details = "Operate as a first aid medic for various triathlons and marathons in the surrounding Austin-Travis county."
+        [[params.experience.list.items]]
+        details = "Work with the South West Emergency Action Team at special events including Austin City Limits and SXSW to ensure the safety of thousands of patrons."
+        [[params.experience.list.items]]
+        details = "Assisted in the Sobering Center to triage incoming patients and continuously monitor patient’s vitals for changes."
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Longhorn EMS"
+        meta = "Special Events Chair and BLS Chair"
+        tagline = "Organized bi-weekly medically related events for members to participate in and gain experience."
+
+        [[params.projects.list]]
+        title = "Taiwanese American Student Association "
+        meta = "Philanthropy Officer and Family Head"
+        tagline = "Arranged group volunteering events to facilitate bonding between members while helping a cause. Assisted in direction and supervision of substantial events with a participation count over 300 people."
+
+        [[params.projects.list]]
+        title = "Texas Pre-Physician Assistant Society "
+        meta = "Active Member"
+        tagline = "Participated in volunteer, social, and fundraising activities."
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Scholarship"
+        [[params.information.list.items]]
+        details = "2016-2020 · KLA Foundation"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Hiking, Exercising, Cooking, Crafting"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/ann-DIY"
+        title = "ann-DIY"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/ann-wang-aw29983"
+        title = "Ann Wang"
+        [[params.social.list]]
+        icon = "fab fa-facebook-square"
+        url = "//facebook.com/ann.wang16568"
+        title = "Ann Wang"
+
+
+
+
+

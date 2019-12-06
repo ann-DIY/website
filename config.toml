@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
@@ -76,7 +76,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Strong problem solver"
         [[params.skills.list.items]]
         details = "Good time management"
-
 
 
 

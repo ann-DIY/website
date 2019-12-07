@@ -46,6 +46,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fas fa-envelope-square"
         url = "mailto:ann.wang@utexas.edu"
         text = "ann.wang@utexas.edu"
+        [[params.contact.list]]
+        icon = "fas fa-square"
+        url = "//wangprojects.netlify.com"
+        text = "Projects link"
 
 
 
@@ -76,8 +80,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Strong problem solver"
         [[params.skills.list.items]]
         details = "Good time management"
-
-
 
 
 
@@ -208,11 +210,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Texas Pre-Physician Assistant Society "
         meta = "Active Member"
         tagline = "Participated in volunteer, social, and fundraising activities."
-
-
-
-
-
 
 
 

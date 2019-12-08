@@ -218,7 +218,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.information.list]]
-        title = "Scholarship"
+        title = "Scholarship-Accomplishments"
         [[params.information.list.items]]
         details = "2016-2020 · KLA Foundation"
 
